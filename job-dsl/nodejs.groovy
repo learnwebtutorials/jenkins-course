@@ -1,4 +1,4 @@
-job('Hello App') {
+job('DSL Job') {
     scm {
         git('https://github.com/learnwebtutorials/hello-app.git') {  node -> // is hudson.plugins.git.GitSCM
             node / gitConfigName('Allen')
